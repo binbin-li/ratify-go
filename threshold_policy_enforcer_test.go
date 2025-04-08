@@ -164,6 +164,7 @@ func TestThresholdPolicyEnforcer_Evaluator(t *testing.T) {
 	}
 }
 
+
 func TestEvaluation(t *testing.T) {
 	// The testing policy can be represented in yaml as:
 	// - threshold: 2
