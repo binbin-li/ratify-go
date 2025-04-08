@@ -391,6 +391,7 @@ func (e *thresholdEvaluator) createVirtualEvaluationNode(rule *ThresholdPolicyRu
 	return nodes
 }
 
+
 // Commit marks related nodes as commited.
 // In single goroutine mode, refresh commited nodes to calculate the decision.
 // In multi goroutine mode, commited node cannot be refreshed as it may need
