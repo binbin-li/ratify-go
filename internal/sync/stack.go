@@ -15,9 +15,8 @@ limitations under the License.
 
 package sync
 
-import (
-	"sync"
-)
+import "sync"
+
 
 // Stack represents a concurrency-safe stack implementation.
 // Push operations are non-blocking and directly send to waiting pop operations
